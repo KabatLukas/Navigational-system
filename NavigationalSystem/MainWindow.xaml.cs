@@ -93,9 +93,9 @@ namespace Navigacny_system
             });
             AvgLineChart.CorrectAxisY();
 
-            DurationTextBox.Text =
-                "A-B-C-D-E=" + averages[0] + ", A-F-G-E=" + averages[1] + ", A-F-H-D-E=" + averages[2] +
-                    ", A-F-H-C-D-E=" + averages[3] + ". On time in " + string.Format("{0,8:P4}", GetPercentageForMin()) + ".";
+            DurationTextBlock.Text =
+                " A-B-C-D-E => " + averages[0] + " minutes\n A-F-G-E => " + averages[1] + " minutes\n A-F-H-D-E => " + averages[2] +
+                    " minutes\n A-F-H-C-D-E => " + averages[3] + " minutes\n On time in " + string.Format("{0,8:P4}", GetPercentageForMin());
             SimulateButton.IsEnabled = true;
             StopButton.IsEnabled = false;
 

@@ -20,15 +20,17 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBlock Margin="3,3,3,3"><Run Text="Number of replication:"/></TextBlock>
+        <TextBlock Margin="3,3,3,3"><Run Text="Number of runs:"/></TextBlock>
         <TextBox x:Name="ReplTextBox" Grid.Column="1" MinWidth="100" Margin="3,3,3,3"/>
-        <TextBlock Grid.Column="0" Grid.Row="1" Margin="3,3,3,3"><Run Text="Skip first"/></TextBlock>
+        <TextBlock Grid.Column="0" Grid.Row="1" Margin="3,3,3,3"><Run Text="Don't draw first"/></TextBlock>
         <TextBox x:Name="SkipTextBox" Grid.Column="1" Grid.Row="1" MinWidth="100" Margin="3,3,3,3"/>
-        <TextBlock Grid.Column="2" Grid.Row="1" Margin="3,3,3,3"><Run Text="replications"/></TextBlock>
+        <TextBlock Grid.Column="2" Grid.Row="1" Margin="3,3,3,3"><Run Text="runs"/></TextBlock>
         <Button x:Name="SimulateButton" Grid.Column="3" Margin="3,3,3,3" Content="Simulate" Click="SimulateButton_OnClick"/>
         <Button x:Name="StopButton" Grid.Column="3" Grid.Row="1" Margin="3,3,3,3" Content="Stop"/>
-        <TextBlock Text="Durations" Grid.Row="2" Grid.Column="0"/>
-        <TextBlock x:Name="DurationTextBox" Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="2"/>
+        <TextBlock Text="Average durations" Grid.Row="2" Grid.Column="0" Margin="3,3,3,3"/>
+        <ScrollViewer Grid.Row="2" Grid.Column="1" VerticalScrollBarVisibility="Auto" MaxHeight="30">
+            <TextBlock x:Name="DurationTextBlock"/>
+        </ScrollViewer>
         <Menu x:Name="RoteCheckBox" Grid.Row="2" Grid.Column="3" >
             <MenuItem Header="Routes▼" >
                 <CheckBox x:Name="ABCDECheckBox" Content="A-B-C-D-E" IsChecked="True" Checked="ABCDECheckBox_OnChecked" Unchecked="ABCDECheckBox_OnUnchecked"/>
