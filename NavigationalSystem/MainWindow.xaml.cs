@@ -4,6 +4,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Media;
+using Navigacny_system.Simulation;
 
 namespace Navigacny_system
 {

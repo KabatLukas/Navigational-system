@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Navigacny_system.Simulation.RandomDistributions;
 
-namespace Navigacny_system
+namespace Navigacny_system.Simulation
 {
     public class NavigationRoute
     {

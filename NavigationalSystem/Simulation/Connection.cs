@@ -1,6 +1,6 @@
 ﻿using Navigacny_system.Simulation.RandomDistributions;
 
-namespace Navigacny_system
+namespace Navigacny_system.Simulation
 {
     /// <summary>
     /// Class which represent connection of the creating node to another node

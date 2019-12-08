@@ -1,8 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Navigacny_system.Simulation.RandomDistributions;
 
-namespace Navigacny_system
+namespace Navigacny_system.Simulation
 {
     /// <summary>
     /// The class which represent node on the map with one way connections to other nodes

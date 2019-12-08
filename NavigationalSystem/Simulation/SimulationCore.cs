@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.Windows.Documents;
+﻿using System.Collections.Generic;
 
-namespace Navigacny_system
+namespace Navigacny_system.Simulation
 {
     /// <summary>
     /// Abstract class which serves as baseline for all simulations

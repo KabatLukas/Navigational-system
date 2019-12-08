@@ -1,6 +1,6 @@
 ﻿using System.Threading;
 
-namespace Navigacny_system
+namespace Navigacny_system.Simulation
 {
     /// <summary>
     /// Create class which is able to stop the tread

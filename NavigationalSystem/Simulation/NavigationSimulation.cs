@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using Navigacny_system.Simulation.RandomDistributions;
 
-namespace Navigacny_system
+namespace Navigacny_system.Simulation
 {
     /// <summary>
     /// Class containg the simulation of simple navigational system
