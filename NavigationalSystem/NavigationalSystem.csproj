@@ -114,9 +114,8 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <None Include="Doc\Navigačný systém dokumentacia.docx">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="Doc\Navigačný systém dokumentacia.docx" />
+    <None Include="Doc\Navigačný systém dokumentacia.pdf" />
     <None Include="Doc\S1-2018-2019.pdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
