@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationalSystem", "Navigacny system\NavigationalSystem.csproj", "{A6B08AD2-46C2-4A7F-8492-181EBF9EF303}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigationalSystem", "NavigationalSystem\NavigationalSystem.csproj", "{A6B08AD2-46C2-4A7F-8492-181EBF9EF303}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {62D5A26A-73A9-432B-9B0E-617EFE0508DD}
+		SolutionGuid = {2A433CEE-D8DD-4BC3-A2CE-1FD9A773DE6A}
 	EndGlobalSection
 EndGlobal
